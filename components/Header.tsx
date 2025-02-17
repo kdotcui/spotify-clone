@@ -58,14 +58,25 @@ const Header: React.FC<HeaderProps> = ({children, className}) => {
         >
           <>
             <div>
-              {/* <Button>
-                Sign up
-              </Button> */}
+              <Button
+                onClick={() => {}}
+                className="bg-transparent text-neutral-300 font-medium"
+              >
+                Sign Up
+              </Button>
+            </div>
+            <div>
+              <Button
+                onClick={() => {}}
+                className="bg-white px-6 py-2"
+              >
+                Sign In
+              </Button>
             </div>
           </>
-
         </div>
       </div>
+      {children}
     </div>
   )
 }

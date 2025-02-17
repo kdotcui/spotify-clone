@@ -10,7 +10,7 @@ export default function Home() {
       overflow-hidden
       overflow-y-auto
     ">
-      <Header>hi</Header>
+      <Header>This is Header</Header>
 
 
     </div>
